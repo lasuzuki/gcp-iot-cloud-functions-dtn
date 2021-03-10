@@ -25,7 +25,7 @@ The Raspberry PI and the Sense Hat are assembled following [this tutorial](https
 
 The schematics of the Raspbery Pi Sense Hat can be found [here](https://www.raspberrypi.org/documentation/hardware/sense-hat/images/Sense-HAT-V1_0.pdf) and it is illustrated in the image below.
 
-<img src="https://github.com/lasuzuki/gcp-iot-bigquery/blob/main/blob/rotation_movement.png" width=400 align=center>
+<img src="https://github.com/lasuzuki/gcp-iot-cloud-functions-dtn/blob/main/blob/sense-hat.png" width=600 align=center>
 
 The Sense HAT is an add-on board for Raspberry Pi comprising of a 8×8 RGB LED matrix, a five-button joystick and the following sensors: Gyroscope, Accelerometer, Magnetometer, Temperature, Barometric pressure and Humidity.
 
@@ -37,7 +37,7 @@ The sensors themselves also operate over the i2c bus:
 
 - Environmental sensors are represented by a LPS25H Pressure/Temperature sensor at address 0x5c and by a HTS221 Humidity/Temperature sensor at 0x5f on the i2c bus.
 
-<img src="https://github.com/lasuzuki/gcp-iot-bigquery/blob/main/blob/rotation_movement.png" width=400 align=center>
+<img src="https://github.com/lasuzuki/gcp-iot-cloud-functions-dtn/blob/main/blob/sh_schematic.png" width=600 align=center>
 
 ## The code for your Raspberry Pi
 In your Raspberry Pi run the code **iot.py** (Adapted from Gaby Weiss), and change the variables accordingly:
